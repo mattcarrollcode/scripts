@@ -1,0 +1,17 @@
+# Custom prompt
+export PROMPT='%(?.🦉.☠️ ?%?)%f %B%F{240}%1~%f%b %# '
+
+# Sublime Text 4 alias
+alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+
+# Add brew to path
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/sbin:$PATH"
+
+# Initialize pyenv (Python versioning tool)
+eval "$(pyenv init -)"
+
+# Add nvm to path
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
